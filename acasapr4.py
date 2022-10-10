@@ -13,4 +13,68 @@ if rs2 == "16":
     print("Corect!")
 else:
     print("Greșit")
+rs3 = input("a + a + 3a = ")
+if rs3 == "5a":
+    print("Corect!")
+else:
+    print("Greșit")
+rs4 = input("100*100 = ")
+if rs4 == "10000":
+    print("Corect!")
+else:
+    print("Greșit")
+rs5 = input("67-7+3 = ")
+if rs5 == "63":
+    print("Corect!")
+else:
+    print("Greșit")
+
+rs6 = input("10 la puterea 9 este = ")
+if rs6 == "1000000000":
+    print("Corect!")
+else:
+    print("Greșit")
+
+rs7 = input("5 + 1000000000 = ")
+if rs7 == "1000000005":
+    print("Corect!")
+else:
+    print("Greșit")
+
+rs8 = input("sinus de 90° = ")
+if rs8 == "1":
+    print("Corect!")
+else:
+    print("Greșit")
+
+rs9 = input("50*10=")
+if rs9 == "500":
+    print("Corect!")
+else:
+    print("Greșit")
+
+rs10 = input("5% din 200 este = ")
+if rs10 == "10":
+    print("Corect!")
+else:
+    print("Greșit")
+
+print("Domeniul informatic:")
+ir1 = input("")
+if ir1=="":
+    print("Corect!")
+else:
+    print("Greșit!")
+
+
+
+
+
+
+
+
+
+
+
+
 
