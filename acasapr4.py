@@ -9,6 +9,8 @@ if rs1 == "4":
 else:
     print("Greșit!")
 rs2 = input("4 la puterea 2 este egal cu: ")
-
-
+if rs2 == "16":
+    print("Corect!")
+else:
+    print("Greșit")
 
