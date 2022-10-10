@@ -2,7 +2,7 @@ print("Vreau să fiu milionar")
 nume = str(input("Care este numele tău?: "))
 print("Salut, ", nume)
 import random
-print("Dimeniul matematic:")
+print("Dimeniul matematic:  ")
 m = 0
 t = 0
 rs1 = input("Cu cât este egal 2 + 2: ")
@@ -84,7 +84,7 @@ else:
 print("Nota la matematică:", m)
 
 
-print("Domeniul informatic: Python")
+print("Domeniul Python")
 i = 0
 ir1 = input("Caracterul care este necesar de a scri un comenatiu este: ")
 if ir1=="#":
@@ -102,7 +102,7 @@ if ir2==".py":
 else:
     print("Greșit!")
 
-ir3 = input("Scrie sintaxa corectă care afișeaza tipul variabilei x:")
+ir3 = input("Scrie sintaxa corectă care afișeaza tipul variabilei x: ")
 if ir3=="print(type(x))":
     t+=1
     i+=1
@@ -118,7 +118,7 @@ if ir4=="def func():":
 else:
     print("Greșit!")
 
-ir5 = input("Operatorul care determina lungimea unei liste este:")
+ir5 = input("Operatorul care determina lungimea unei liste este: ")
 if ir5=="len()":
     t+=1
     i+=1
@@ -126,7 +126,7 @@ if ir5=="len()":
 else:
     print("Greșit!")
 
-ir6 = input("Operatorul care transforma toate literele mici dintr-un string in litere mari")
+ir6 = input("Operatorul care transforma toate literele mici dintr-un string in litere mari: ")
 if ir6=="upper()":
     t+=1
     i+=1
@@ -134,7 +134,7 @@ if ir6=="upper()":
 else:
     print("Greșit!")
 
-ir7 = input("Operatorul care înlocuiește părți dintr-un string:")
+ir7 = input("Operatorul care înlocuiește părți dintr-un string: ")
 if ir7=="replace()":
     t+=1
     i+=1
@@ -158,15 +158,15 @@ if ir9=="list":
 else:
     print("Greșit!")
 
-ir5 = input("Functia care oprește un ciclu: ")
-if ir5=="break":
+ir10 = input("Functia care oprește un ciclu: ")
+if ir10=="break":
     t+=1
     i+=1
     print("Corect!")
 else:
     print("Greșit!")
 
-print("Nota la informatică(python): ", i)
+print("Nota la Python: ", i)
 
 print("Domeniul fizicii:")
 fi1 = input("Cu ce simbol se notaza căldura: ")
@@ -179,8 +179,7 @@ else:
     print("Greșit!")
 
 
-fi2 = input("Cu ce simbol se noteaza rezistenți
-a totală: ")
+fi2 = input("Cu ce simbol se noteaza rezistenția totală: ")
 if fi2=="R":
     t+=1
     f+=1
@@ -196,7 +195,7 @@ if fi3=="p":
 else:
     print("Greșit!")
 
-fi4 = input("Cu ce simbol se notează intensitatea curentuluii:")
+fi4 = input("Cu ce simbol se notează intensitatea curentului: ")
 if fi4=="U":
     t+=1
     f+=1
@@ -204,7 +203,7 @@ if fi4=="U":
 else:
     print("Greșit!")
 
-fi5 = input("Cu ce simbol se notează t.e.m.")
+fi5 = input("Cu ce simbol se notează t.e.m.: ")
 if fi5=="E":
     t+=1
     f+=1
@@ -220,8 +219,8 @@ if fi6=="n":
 else:
     print("Greșit!")
 
-fi7 = input("Cu ce simbol se notează ")
-if fi7=="":
+fi7 = input("Cu ce simbol se notează pulsația: ")
+if fi7=="w":
     t+=1
     f+=1
     print("Corect!")
@@ -229,25 +228,16 @@ else:
     print("Greșit!")
 
 
-fi8 = input("")
-if fi8=="":
+fi8 = input("Cu ce simbol se notează timpul: ")
+if fi8=="t":
     t+=1
     f+=1
     print("Corect!")
 else:
     print("Greșit!")
 
-fi9 = input("")
-if fi9=="":
-    t+=1
-    f+=1
-    print("Corect!")
-else:
-    print("Greșit!")
-
-
-fi10 = input("")
-if fi10=="":
+fi9 = input("Cu ce simbol se notează viteza: ")
+if fi9=="v":
     t+=1
     f+=1
     print("Corect!")
@@ -255,8 +245,188 @@ else:
     print("Greșit!")
 
 
+fi10 = input("Cu ce simbol se notează distanța: ")
+if fi10=="d":
+    t+=1
+    f+=1
+    print("Corect!")
+else:
+    print("Greșit!")
+print("La fizică ai nota", f)
 
+print("Domeniul biologic")
+b = 0
+bi1 = input("Cea mai mică unitate structurală este: ")
+if bi1 == "celula":
+    b+=1
+    t+=1
+    print("Corect!")
+else:
+    print("Greșit!")
 
+bi2 = input("Procesul de producere a spermatozoizilor: ")
+if bi2 == "spermatogeneza":
+    b+=1
+    t+=1
+    print("Corect!")
+else:
+    print("Greșit!")
+
+bi3 = input("Procesul care urmeaza sa formeze cromozomi: ")
+if bi3 == "mitoza":
+    b+=1
+    t+=1
+    print("Corect!")
+else:
+    print("Greșit!")
+
+bi4 = input("Unitati structurale compacte, alcatuite din acizi nucleici si proteine: ")
+if bi4 == "cromozomii":
+    b+=1
+    t+=1
+    print("Corect!")
+else:
+    print("Greșit!")
+
+bi5 = input("Proprietatea organismelor de a transmite caractere: ")
+if bi5 == "ereditatea":
+    b+=1
+    t+=1
+    print("Corect!")
+else:
+    print("Greșit!")
+
+bi6 = input("Locul in care se pastreza informatia ereditara: ")
+if bi6 == "Gene":
+    b+=1
+    t+=1
+    print("Corect!")
+else:
+    print("Greșit!")
+
+bi7 = input("Mod, rapid de diviziune a celulelor: ")
+if bi7 == "amitoza":
+    b+=1
+    t+=1
+    print("Corect!")
+else:
+    print("Greșit!")
+
+bi8 = input("Proces de formare a ovarelor: ")
+if bi8 == "ovogeneza":
+    b+=1
+    t+=1
+    print("Corect!")
+else:
+    print("Greșit!")
+
+bi9 = input("Gamet masculin: ")
+if bi9 == "spermatozoid":
+    b+=1
+    t+=1
+    print("Corect!")
+else:
+    print("Greșit!")
+
+bi10 = input("Gamet feminin: ")
+if bi10 == "ovul":
+    b+=1
+    t+=1
+    print("Corect!")
+else:
+    print("Greșit!")
+
+print("La biologie ai nota:", b)
+
+print("Domeniul C++:")
+
+c = 0
+c1 = input("Scrie sinaxa care afiseaza Hello World: ")
+if c1 == "cout<<'Hello World';":
+    c+=1
+    t+=1
+    print("Corect!")
+else:
+    print("Greșit!")
+
+c2 = input("Operatorul de inserare a comentariilor: ")
+if c2 == "//":
+    c+=1
+    t+=1
+    print("Corect!")
+else:
+    print("Greșit!")
+
+c3 = input("Tipul de date in care stochezi text: ")
+if c3 == "string":
+    c+=1
+    t+=1
+    print("Corect!")
+else:
+    print("Greșit!")
+
+c4 = input("Creaza o variabila x cu valoarea numerica intreaga 5: ")
+if c4 == "int x=5;":
+    c+=1
+    t+=1
+    print("Corect!")
+else:
+    print("Greșit!")
+
+c5 = input("Operatorul care aduna 2 numere: ")
+if c5 == "+":
+    c+=1
+    t+=1
+    print("Corect!")
+else:
+    print("Greșit!")
+
+c6 = input("Care fisier ne permite sa lucram cu obiecte de introducere si afisare? ")
+if c6 == "#include <iostream>":
+    c+=1
+    t+=1
+    print("Corect!")
+else:
+    print("Greșit!")
+
+c7 = input("Indexul unui array incepe cu: ")
+if c7 == "0":
+    c+=1
+    t+=1
+    print("Corect!")
+else:
+    print("Greșit!")
+
+c8 = input("Apeleaza functia func: ")
+if c8 == "func();":
+    c+=1
+    t+=1
+    print("Corect!")
+else:
+    print("Greșit!")
+
+c9 = input("Cuvantul cheie de creare unei clase: ")
+if c9 == "class":
+    c+=1
+    t+=1
+    print("Corect!")
+else:
+    print("Greșit!")
+
+c10 = input("Creaza un obiect myObj din clasa myClass: ")
+if c10 == "myClass myObj;":
+    c+=1
+    t+=1
+    print("Corect!")
+else:
+    print("Greșit!")
+print("Nota la C++:", c)
+
+print("Punctaj total:", t, "din 50")
+if t==50:
+    print("Ai punctaj maximal, vei fi milionar!")
+else:
+    print("Normal")
 
 
 
